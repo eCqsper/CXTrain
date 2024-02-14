@@ -1,0 +1,13 @@
+name: CX-Train
+version: '${project.version}'
+main: main.cxtrain.CX_Train
+api-version: '1.20'
+authors: [TomLegend & Casper]
+description: The only train plugin you will ever need!
+website: https://discord.gg/TdyXKmxVTA
+commands:
+  train:
+    permission: cordtrain.spawn
+    permission-message: No Perms!
+config:
+  name: config.yml
